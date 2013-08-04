@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Dummy package that has version range in prereqs",
    "author" : [
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>"
    ],
@@ -36,6 +36,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Try::Tiny" : ">= 0.12, != 0.14",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +47,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-Deps-VersionRange/issues"
+      },
+      "homepage" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-Deps-VersionRange",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-Deps-VersionRange.git",
+         "web" : "https://github.com/miyagawa/CPAN-Test-Dummy-Perl5-Deps-VersionRange"
+      }
+   },
    "version" : "0.01"
 }
 

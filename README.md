@@ -1,6 +1,6 @@
 # NAME
 
-CPAN::Test::Dummy::Perl5::Deps::VersionRange - Blah blah blah
+CPAN::Test::Dummy::Perl5::Deps::VersionRange - Dummy package that has version range in prereqs
 
 # SYNOPSIS
 
@@ -8,7 +8,8 @@ CPAN::Test::Dummy::Perl5::Deps::VersionRange - Blah blah blah
 
 # DESCRIPTION
 
-CPAN::Test::Dummy::Perl5::Deps::VersionRange is
+CPAN::Test::Dummy::Perl5::Deps::VersionRange is a dummy CPAN package
+that has version requirement in its runtime prereqs.
 
 # AUTHOR
 
